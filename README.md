@@ -25,20 +25,35 @@ A privacy-focused decentralized messaging protocol that enables wallet-to-wallet
 ---
 
 # 🏗 Architecture
+
 User writes message
+
 ↓
+
 ECDH Wallet Encryption
+
 ↓
+
 AES Encrypted Payload
+
 ↓
+
 Upload Encrypted Data to IPFS
+
 ↓
+
 Store Message Hash + CID On-chain
+
 ↓
+
 Receiver Fetches IPFS Payload
+
 ↓
+
 Decrypt Message Using Wallet
+
 ↓
+
 Confirm Read / Destroy Message
 
 
